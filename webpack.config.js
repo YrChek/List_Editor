@@ -2,7 +2,6 @@ const path = require('path');
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCSSExtractPlugin = require('mini-css-extract-plugin');
-const fs = require("fs");
 
 module.exports = {
   mode: 'development',
@@ -10,7 +9,7 @@ module.exports = {
     port: 9000,
     open: true
   },
-  devtool: 'source-map',
+  // devtool: 'source-map',
   module: {
     rules: [
       {
@@ -54,6 +53,5 @@ module.exports = {
       template: './src/index.html'
     }),
     new MiniCSSExtractPlugin(),
-    // new webpack.BannerPlugin(fs.readFileSync('./license.txt', 'utf8'))
   ]
 };
