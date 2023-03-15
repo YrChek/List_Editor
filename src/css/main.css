@@ -1,0 +1,87 @@
+.sharedContainer {
+  width: 800px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.titleBoxing {
+  display: flex;
+  align-items: center;
+  margin: 40px 10px;
+}
+
+.titleBoxing-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  /* border: 1px solid black; */
+  background-image: url(/src/icons/icons-plus-50.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 25px;
+  cursor: pointer;
+}
+
+.containerNotes {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 50px;
+  border: 1px solid black;
+}
+
+.containerNotes-title {
+  display: flex;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.name {
+  width: 40%;
+  padding: 10px;
+}
+
+.price {
+  width: 30%;
+  padding: 10px;
+}
+
+.del {
+  color: red;
+}
+
+.actions {
+  display: flex;
+  width: 30%;
+  padding: 10px;
+}
+
+.note {
+  display: flex;
+  width: 100%;
+  font-size: 18px;
+  align-items: center;
+}
+
+.note-icon-edit {
+  width: 20px;
+  height: 20px;
+  margin-left: 50px;
+  background-image: url(/src/icons/icons-edit-50.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 25px;
+  cursor: pointer;
+}
+
+.note-icon-del {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  background-image: url(/src/icons/icons-delete-50.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 25px;
+  cursor: pointer;
+}
